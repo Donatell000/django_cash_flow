@@ -1,0 +1,193 @@
+[
+{
+    "model": "cashflow.status",
+    "pk": 1,
+    "fields": {
+        "name": "Бизнес"
+    }
+},
+{
+    "model": "cashflow.status",
+    "pk": 2,
+    "fields": {
+        "name": "Личное"
+    }
+},
+{
+    "model": "cashflow.status",
+    "pk": 3,
+    "fields": {
+        "name": "Налог"
+    }
+},
+{
+    "model": "cashflow.transactiontype",
+    "pk": 1,
+    "fields": {
+        "name": "Пополнение"
+    }
+},
+{
+    "model": "cashflow.transactiontype",
+    "pk": 2,
+    "fields": {
+        "name": "Списание"
+    }
+},
+{
+    "model": "cashflow.category",
+    "pk": 1,
+    "fields": {
+        "name": "Инфраструктура",
+        "type": 1
+    }
+},
+{
+    "model": "cashflow.category",
+    "pk": 2,
+    "fields": {
+        "name": "Инфраструктура",
+        "type": 2
+    }
+},
+{
+    "model": "cashflow.category",
+    "pk": 3,
+    "fields": {
+        "name": "Маркетинг",
+        "type": 1
+    }
+},
+{
+    "model": "cashflow.category",
+    "pk": 4,
+    "fields": {
+        "name": "Маркетинг",
+        "type": 2
+    }
+},
+{
+    "model": "cashflow.category",
+    "pk": 6,
+    "fields": {
+        "name": "Консалтинг",
+        "type": 2
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 1,
+    "fields": {
+        "name": "VPS",
+        "category": 1
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 2,
+    "fields": {
+        "name": "VPS",
+        "category": 2
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 3,
+    "fields": {
+        "name": "Proxy",
+        "category": 1
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 4,
+    "fields": {
+        "name": "Proxy",
+        "category": 2
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 5,
+    "fields": {
+        "name": "Farpost",
+        "category": 3
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 6,
+    "fields": {
+        "name": "Farpost",
+        "category": 4
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 7,
+    "fields": {
+        "name": "Avito",
+        "category": 3
+    }
+},
+{
+    "model": "cashflow.subcategory",
+    "pk": 8,
+    "fields": {
+        "name": "Avito",
+        "category": 4
+    }
+},
+{
+    "model": "cashflow.transaction",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-05-29",
+        "status": 3,
+        "type": 2,
+        "category": 2,
+        "subcategory": 2,
+        "amount": "1500.00",
+        "comment": ""
+    }
+},
+{
+    "model": "cashflow.transaction",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-05-31",
+        "status": 2,
+        "type": 1,
+        "category": 1,
+        "subcategory": 1,
+        "amount": "3000.00",
+        "comment": ""
+    }
+},
+{
+    "model": "cashflow.transaction",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-05-31",
+        "status": 3,
+        "type": 2,
+        "category": 4,
+        "subcategory": 6,
+        "amount": "4500.00",
+        "comment": "спасибо"
+    }
+},
+{
+    "model": "cashflow.transaction",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-06-01",
+        "status": 3,
+        "type": 2,
+        "category": 2,
+        "subcategory": 2,
+        "amount": "6500.00",
+        "comment": "Описание операции"
+    }
+}
+]
